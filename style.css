@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+}
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+h1, h2 {
+	font: 50% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+
+}
+h2 {
+	font-size: 30px;
+}
+.header {
+	background-color: darkslateblue;
+	height: 170px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: 40px;
+}
+
+.logo h1, .logo h2{
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: white;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+.logo_text h1 a{
+	text-decoration: none;
+	color: white;
+}
+.logo_text h2{
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+}
+
+
+.menubar{
+	width: 900px;
+	height: 46px;
+}
+
+ul.menu{
+	float: right;
+}
+ul.menu li{
+	float: left;
+	padding: 8px 9px 0 9px;
+	list-style: none;
+	margin: 0px 2px 0 0 ;
+}
+
+ul.menu li a{
+	font: normal 120% "trebuchet ms", sens-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	text-decoration: none;
+	color: white;
+}
+
+ul.menu li.selected a{
+	color: #f31221
+}
+ul.menu li a:hover {
+	color: #aeb002;
+}
+
+.site_content{
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+}
+
+.sitebar_container{
+	float: right;
+	width: 224px;
+}
+
+.sidebar{
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border-radius: 30px;
+	background-color: #f9f9f9;
+}
+
+.btn{
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.sidebar h2 {
+	color: #136cb2;
+}
+
+.btn2{
+	padding: 18px;
+	height: 5px;
+	padding-top: 0;
+	background-color: white;
+	cursor: pointer;
+}
+
+.podpis a{
+	font-size: normal;
+	color: #d4d;
+	text-decoration: none;
+}
+
+.podpis a:hover{
+	font-size: normal;
+	color: #dd3;
+}
