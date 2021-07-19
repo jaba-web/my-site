@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
 
-You can use the [editor on GitHub](https://github.com/jaba-web/my-site/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <header class="page-header">
+      Контакты в шапке
+    </header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="hero-image">
+      <h1 class="heading">Неопознанный Енот</h1>
+      <p>Junior верстальщик</p>
+    </section>
 
-### Markdown
+    <section class="intro">
+      <h2 class="subheading">Давайте познакомимся</h2>
+      <h3>Пара слов о себе</h3>
+      <p>Текст с парой слов о себе.</p>
+      <h3>Чем могу быть полезен</h3>
+      <p>Текст о том, чем могу быть полезен.</p>
+    </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <section class="portfolio">
+      <h2 class="subheading">Мои работы</h2>
 
-```markdown
-Syntax highlighted code block
+      <h3>Магазин товаров для дома</h3>
+      <p>Мой первый сайт.</p>
 
-# Header 1
-## Header 2
-### Header 3
+      <h3>Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS.</p>
+    </section>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaba-web/my-site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <footer class="page-footer">
+      Контакты в подвале
+    </footer>
+  </body>
+</html>
