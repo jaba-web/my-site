@@ -5,7 +5,7 @@
 	<meta name="description" content="моя первая верстка сайта">
 	<meta name="keywords" content="верстка,сайт,просто верстка">
 	<title>Киномонстр</title>
-	<link rel="stylesheet" href="/my-site/css/style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="main">
@@ -52,3 +52,5 @@
 	</div>
 </body>
 </html>
+
+
